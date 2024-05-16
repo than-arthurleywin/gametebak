@@ -13,8 +13,6 @@ function hasil(player, computer) {
   if (player == computer) {
     result.style.color = "green";
     result.innerHTML = "KLASS CAPT!! Menyala Abangkuhhh";
-    resulty.innerHTML =
-      "<img src='https://pontianaktoday.id/wp-content/uploads/2024/01/IMG-20240131-WA0000.jpg.webp'style='width:200px'/>";
     komp.innerHTML = computer;
     input.setAttribute("disabled", true);
     return;
@@ -28,13 +26,10 @@ function hasil(player, computer) {
     if (computer > player) {
       result.style.color = "yellow";
       result.innerHTML = "Angka komputer lebih besar abangkuhh..";
-      resulty.innerHTML =
-        "<img src='2wCEAAkGBxITEhUTEhMVFRUXGBgYFxgXGBgfFxgYGRcXFhYYFxYYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGi0fHR0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLfsss'/>";
       return;
     } else {
       result.style.color = "yellow";
       result.innerHTML = "Angka komputer lebih kecil abangkuhh..";
-      ("<img src='2wCEAAkGBxITEhUTEhMVFRUXGBgYFxgXGBgfFxgYGRcXFhYYFxYYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGi0fHR0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLfsss'/>");
       return;
     }
   } else {
